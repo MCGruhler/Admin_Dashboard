@@ -177,19 +177,6 @@ button{
         display: grid;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Article styling and grid */
 .article{
     background-color: #e2e8f0;
@@ -305,6 +292,22 @@ button{
 .trend_item p {
     color: gray;
     font-size: .8rem;
+}
+
+
+/* Button hover */
+
+img:not(.noHovImg):hover{
+    opacity: .5;
+}
+
+.hello:hover{
+    opacity: .7;
+}
+
+button:hover{
+    height: 2rem;
+    width: 5rem;
 }
 
 
